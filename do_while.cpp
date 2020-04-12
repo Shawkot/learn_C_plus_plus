@@ -1,5 +1,5 @@
 // This program will infinitely asked password from user
-// untill it finds the correct password
+// untill it finds the correct password by using do-while loop
 
 #include <iostream>
 using namespace std;
