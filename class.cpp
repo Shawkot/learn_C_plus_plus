@@ -40,11 +40,11 @@ void Cat::makeSad()
 
 int main() // main function
 {
-    Cat cat;
+    Cat cat; // declaring object
     cat.makeHappy();
     cat.speak();
 
-    Cat bob;
+    Cat bob; // declaring object
     bob.makeSad();
     bob.speak();
 
