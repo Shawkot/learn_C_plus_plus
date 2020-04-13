@@ -1,4 +1,5 @@
 /* This program will use constructor and destructor in a class
+
 // main.cpp
 #include <iostream>
 #include "dog.h"
@@ -16,6 +17,7 @@ int main()
     cout << "closing program... "<< endl;
     return 0;
 }
+
 // dog.h
 #ifndef cat_h_
 #define cat_h_
@@ -29,6 +31,7 @@ public:
     ~Dog();
 };
 #endif // cat_h_
+
 // dog.cpp
 #include <iostream>
 #include "dog.h"
