@@ -7,8 +7,12 @@ void swap(int* value1, int* value2);
 
 int main(void)
 {
-    int a = 10;
-    int b = 20;
+    int a;
+    int b;
+    cout << "input the 1st value:" << flush;
+    cin >> a;
+    cout << "input the 2nd value:" << flush;
+    cin >> b;
     swap(&a, &b);
 }
 void swap(int* value1, int* value2)
@@ -17,6 +21,7 @@ void swap(int* value1, int* value2)
     temp = *value1;
     *value1 = *value2;
     *value2 = temp;
-    cout << "a = " << *value1 << endl;
-    cout << "b = " << *value2 << endl;
+    cout << "1st value: " << *value1 << endl;
+    cout << "2nd value: " << *value2 << endl;
 }
+
