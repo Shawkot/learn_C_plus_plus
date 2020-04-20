@@ -5,14 +5,14 @@
 #include <cassert>
 using namespace std;
 
-/*int fibonacci_naive(int n) {
+/*int fibonacci_naive(int n) {  // Naive algorithm, using recursion
     if (n <= 1)
         return n;
     else{
     return fibonacci_naive(n - 1) + fibonacci_naive(n - 2);
     }
 }*/
-int fibonacci_fast(int n) {
+int fibonacci_fast(int n) {  // Fast algorithm
     int i;
     int num[n];
     num[0] = 0;
