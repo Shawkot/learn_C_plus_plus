@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cassert>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
