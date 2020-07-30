@@ -1,8 +1,8 @@
-// This program illustrates the constructor inheritance.
-// Literally constructor can not be inherited. Any sub-class(derived) can call it's
-// super-class constructor. Super-class's (Base-class) private instance can't be accessed directly
-// by any sub-class. Lastly, any sub-class can't call the indirect super-class. It should call it's
-// super-class.i.e hierarchy must be maintained in constructor calling.
+/*This program illustrates the constructor inheritance.
+ Literally constructor can not be inherited. Any sub-class(derived) can call it's
+ super-class constructor. Super-class's (Base-class) private instance can't be accessed directly
+ by any sub-class. Lastly, any sub-class can't call the indirect super-class. It should call it's
+ super-class.i.e hierarchy must be maintained in constructor calling.*/
 
 #include <iostream>
 using namespace std;
